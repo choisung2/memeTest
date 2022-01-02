@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "GmarketSansMedium";
+  background: #f1f1f1;
+}
+
+button {
+  font-family: "GmarketSansMedium";
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(32, 32, 32);
+  color: #f1f1f1;
+  transition: all 0.2s ease-in-out;
+}
+
+.landing {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.landing-hide,
+.result {
+  display: none;
+}
+
+.tit {
+  text-align: center;
+  font-size: 50px;
+  font-family: "GmarketSansBold";
+  color: #ffffff;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5),
+    0px -3px 20px rgba(173, 173, 173, 0.342);
+}
+
+.txt {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.txt p {
+  background: rgb(32, 32, 32);
+  padding: 9px 15px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.txt img {
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+.start-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 20px 30px;
+  border: none;
+  background: white;
+}
+
+.question {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  display: none;
+}
+
+.question-show,
+.result-show {
+  display: flex;
+}
+
+.progress {
+  margin: 50px auto;
+  height: 10px;
+  width: 90%;
+  border: 2px solid rgb(32, 32, 32);
+  background: #f7f6f1;
+  overflow: hidden;
+}
+.progress-bar {
+  height: 10px;
+  background: rgb(32, 32, 32);
+  width: calc(100 / 12 * 1%);
+}
+
+#img {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+#title {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 20px;
+}
+
+.btn {
+  display: block;
+  font-size: 17px;
+  margin: 20px auto;
+  width: 90%;
+  padding: 15px 30px;
+  border: none;
+  background: white;
+}
+
+.correct {
+  background: #f1f1f1;
+}
+
+.wrong {
+  background: #f1f1f1;
+}
