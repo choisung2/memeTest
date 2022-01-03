@@ -23,7 +23,6 @@ button {
   font-family: "GmarketSansMedium";
   cursor: pointer;
 }
-
 button:hover {
   background: rgb(32, 32, 32);
   color: #f1f1f1;
@@ -39,8 +38,7 @@ button:hover {
   padding-top: 80px;
 }
 
-.landing-hide,
-.result {
+.landing-hide {
   display: none;
 }
 
@@ -90,8 +88,7 @@ button:hover {
   display: none;
 }
 
-.question-show,
-.result-show {
+.question-show {
   display: flex;
 }
 
@@ -107,6 +104,16 @@ button:hover {
   height: 10px;
   background: rgb(32, 32, 32);
   width: calc(100 / 12 * 1%);
+}
+
+.result {
+  display: none;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.result-show {
+  display: block;
 }
 
 #img {
@@ -132,10 +139,25 @@ button:hover {
   background: white;
 }
 
-.correct {
-  background: #f1f1f1;
+#result-title {
+  text-align: center;
+  margin: 30px 160px 50px;
+  font-size: 25px;
+  background: rgb(32, 32, 32);
+  padding: 15px;
+  color: #f1f1f1;
 }
 
-.wrong {
-  background: #f1f1f1;
+#explain {
+  margin: 100px auto;
+  font-size: 14px;
+  display: inline;
+  vertical-align: 30px;
+  letter-spacing: -1px;
+}
+
+#result-img {
+  width: 500px;
+  margin: 0 auto;
+  display: block;
 }
