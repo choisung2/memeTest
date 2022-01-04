@@ -17,6 +17,7 @@
 body {
   font-family: "GmarketSansMedium";
   background: #f1f1f1;
+  min-width: 500px;
 }
 
 button {
@@ -141,7 +142,7 @@ button:hover {
 
 #result-title {
   text-align: center;
-  margin: 30px 160px 50px;
+  margin: 30px 160px 40px;
   font-size: 25px;
   background: rgb(32, 32, 32);
   padding: 15px;
@@ -149,10 +150,9 @@ button:hover {
 }
 
 #explain {
-  margin: 100px auto;
+  margin: 0 auto 40px;
   font-size: 14px;
-  display: inline;
-  vertical-align: 30px;
+  line-height: 50px;
   letter-spacing: -1px;
 }
 
