@@ -9,7 +9,7 @@ let shuffledQuestions, currentQuestionIndex, resultConntent
 
 startBtn.addEventListener('click', () => {
   landingPage.classList.add('landing-hide')
-  shuffledQuestions = questions.sort()
+  shuffledQuestions = questions.sort(() => Math.random() - 0.5)
   currentQuestionIndex = 0
   questionPage.classList.add('question-show')
   setNextQuestion()
